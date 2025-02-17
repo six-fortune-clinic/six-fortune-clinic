@@ -9,72 +9,88 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
-            background-color: #f8f9fa;
+            background-color: #ffffff;
             color: #333;
         }
         header {
-            background-color: #d32f2f;
+            background-color: #a41d21;
             color: white;
-            padding: 40px 20px;
-            font-size: 28px;
+            padding: 60px 20px;
+            font-size: 32px;
             font-weight: bold;
+            text-align: center;
         }
         nav {
-            background: #ffffff;
+            background: #f5f5f5;
             padding: 15px;
             display: flex;
             justify-content: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            gap: 20px;
+            font-size: 18px;
         }
         nav a {
-            margin: 0 15px;
             text-decoration: none;
-            font-size: 16px;
             color: #333;
             font-weight: bold;
             transition: color 0.3s;
         }
         nav a:hover {
-            color: #d32f2f;
+            color: #a41d21;
         }
         .hero {
-            background: url('tcm-background.jpg') no-repeat center center/cover;
-            padding: 100px 20px;
+            background: url('tcm-luxury.jpg') no-repeat center center/cover;
+            padding: 150px 20px;
+            text-align: center;
             color: white;
-            font-size: 24px;
+            font-size: 28px;
             font-weight: bold;
         }
         section {
-            padding: 40px 20px;
-            background: white;
-            margin: 20px auto;
-            max-width: 900px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
-            border-radius: 10px;
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+            text-align: center;
+            background: #ffffff;
         }
         h2 {
-            color: #d32f2f;
-            font-size: 24px;
+            color: #a41d21;
+            font-size: 28px;
             margin-bottom: 20px;
         }
         p {
-            font-size: 16px;
-            line-height: 1.6;
+            font-size: 18px;
+            line-height: 1.8;
+            max-width: 900px;
+            margin: auto;
         }
         ul {
             list-style: none;
             padding: 0;
         }
         ul li {
-            font-size: 16px;
+            font-size: 18px;
             margin: 10px 0;
         }
-        footer {
-            background: #d32f2f;
+        .cta {
+            background: #a41d21;
             color: white;
-            padding: 20px;
-            font-size: 14px;
+            padding: 15px 30px;
+            display: inline-block;
+            font-size: 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        .cta:hover {
+            background: #82161b;
+        }
+        footer {
+            background: #a41d21;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-size: 16px;
         }
     </style>
 </head>
@@ -86,12 +102,12 @@
         <a href="#contact">Contact | 联系我们</a>
     </nav>
     
-    <div class="hero">Professional Traditional Chinese Medicine Treatments | 专业的中医治疗</div>
+    <div class="hero">Experience Excellence in Traditional Chinese Medicine | 体验卓越的中医护理</div>
     
     <section id="about">
         <h2>About Us | 关于我们</h2>
-        <p>Six Fortune Acupuncture and Massage is a leading Traditional Chinese Medicine (TCM) clinic in Melbourne. Led by Dr. Xue Yinghui, who has over 30 years of experience, our clinic provides holistic health solutions with a focus on acupuncture, remedial massage, cupping, and therapy.</p>
-        <p>六福中医针灸推拿诊所是墨尔本领先的中医诊所，由具有三十多年经验的薛英辉医师创办。我们专注于提供针灸、推拿、拔罐及其他传统治疗方法，以帮助患者改善健康。</p>
+        <p>Six Fortune Acupuncture and Massage is an elite Traditional Chinese Medicine (TCM) clinic in Melbourne, offering a premium and holistic approach to health. Led by Dr. Xue Yinghui, with over 30 years of experience, we specialize in personalized treatments, ensuring the highest standard of care.</p>
+        <p>六福中医针灸推拿诊所是墨尔本顶级中医诊所，致力于提供优质、全面的健康治疗。由具有三十多年临床经验的薛英辉医生领衔，我们专注于个性化诊疗，确保最高标准的护理。</p>
     </section>
     
     <section id="services">
@@ -102,6 +118,7 @@
             <li>✔ Cupping Therapy | 拔罐</li>
             <li>✔ Holistic Therapy | 综合理疗</li>
         </ul>
+        <a href="#contact" class="cta">Book an Appointment | 预约咨询</a>
     </section>
     
     <section id="contact">
