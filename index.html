@@ -10,27 +10,27 @@
             margin: 0;
             padding: 0;
             text-align: center;
-            background-color: #ffffff;
+            background-color: #f8f9fa;
             color: #333;
         }
         header {
             background-color: #d32f2f;
             color: white;
-            padding: 20px;
-            font-size: 32px;
+            padding: 40px 20px;
+            font-size: 28px;
             font-weight: bold;
-            text-transform: uppercase;
         }
         nav {
-            background: #f8f9fa;
+            background: #ffffff;
             padding: 15px;
             display: flex;
             justify-content: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         nav a {
-            margin: 0 20px;
+            margin: 0 15px;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 16px;
             color: #333;
             font-weight: bold;
             transition: color 0.3s;
@@ -38,72 +38,69 @@
         nav a:hover {
             color: #d32f2f;
         }
+        .hero {
+            background: url('tcm-background.jpg') no-repeat center center/cover;
+            padding: 100px 20px;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
         section {
-            padding: 50px 20px;
+            padding: 40px 20px;
             background: white;
             margin: 20px auto;
-            max-width: 1000px;
+            max-width: 900px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
             border-radius: 10px;
         }
         h2 {
             color: #d32f2f;
-            font-size: 28px;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
         }
         ul {
             list-style: none;
             padding: 0;
         }
         ul li {
-            font-size: 18px;
+            font-size: 16px;
             margin: 10px 0;
-        }
-        img {
-            max-width: 100%;
-            border-radius: 10px;
         }
         footer {
             background: #d32f2f;
             color: white;
             padding: 20px;
-            font-size: 16px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
     <header>Six Fortune Acupuncture and Massage | 墨尔本辽宁中医针灸推拿诊所</header>
     <nav>
-        <a href="#home">Home | 主页</a>
-        <a href="#about">About Us | 关于我们</a>
+        <a href="#about">About | 关于我们</a>
         <a href="#services">Services | 服务</a>
         <a href="#contact">Contact | 联系我们</a>
     </nav>
     
-    <section id="home">
-        <h2>Welcome to Six Fortune Acupuncture and Massage | 欢迎来到墨尔本辽宁中医针灸推拿诊所</h2>
-        <img src="acupuncture.jpg" alt="Acupuncture treatment">
-        <p>Providing holistic healing through acupuncture, remedial massage, cupping, and therapy. | 通过针灸、推拿、拔罐和理疗提供整体康复治疗。</p>
-    </section>
+    <div class="hero">Professional Traditional Chinese Medicine Treatments | 专业的中医治疗</div>
     
     <section id="about">
         <h2>About Us | 关于我们</h2>
-        <p>Six Fortune Acupuncture and Massage is dedicated to providing high-quality Traditional Chinese Medicine (TCM) treatments in Melbourne. Led by Dr. Xue Yinghui, a highly experienced practitioner with over three decades in the field, our clinic focuses on a patient-centered approach to health and wellness.</p>
-        <p>Dr. Xue graduated from Liaoning University of Traditional Chinese Medicine in 1988 and has held esteemed positions, including Head of the Tuina Department at the First Affiliated Hospital of Liaoning University. He has extensive experience in treating musculoskeletal disorders, chronic pain, and various health conditions.</p>
-        <p><strong>关于我们</strong></p>
-        <p>六福中医针灸推拿诊所致力于提供高质量的中医治疗。由经验丰富的薛英辉医生领衔，他拥有超过三十年的临床经验，专注于以患者为中心的健康护理。</p>
-        <p>薛医生1988年毕业于辽宁中医药大学，并曾担任辽宁中医大学第一附属医院推拿科主任。他在肌肉骨骼疾病、慢性疼痛以及其他健康问题的治疗方面积累了丰富的经验。</p>
+        <p>Six Fortune Acupuncture and Massage is a leading Traditional Chinese Medicine (TCM) clinic in Melbourne. Led by Dr. Xue Yinghui, who has over 30 years of experience, our clinic provides holistic health solutions with a focus on acupuncture, remedial massage, cupping, and therapy.</p>
+        <p>六福中医针灸推拿诊所是墨尔本领先的中医诊所，由具有三十多年经验的薛英辉医师创办。我们专注于提供针灸、推拿、拔罐及其他传统治疗方法，以帮助患者改善健康。</p>
     </section>
     
     <section id="services">
         <h2>Our Services | 我们的服务</h2>
         <ul>
-            <li>✅ Acupuncture | 针灸</li>
-            <li>✅ Remedial Massage | 推拿</li>
-            <li>✅ Cupping | 拔罐</li>
-            <li>✅ Therapy | 理疗</li>
+            <li>✔ Acupuncture | 针灸</li>
+            <li>✔ Remedial Massage | 推拿</li>
+            <li>✔ Cupping Therapy | 拔罐</li>
+            <li>✔ Holistic Therapy | 综合理疗</li>
         </ul>
     </section>
     
@@ -114,7 +111,6 @@
         <p><strong>WeChat:</strong> +61 403015025</p>
         <p><strong>Address:</strong> 2A Sergeant St, Blackburn, 3130</p>
         <p><strong>Business Hours:</strong> 09:00 - 19:00, Monday to Sunday | 营业时间: 每天 09:00 - 19:00</p>
-        <p><strong>Book over the phone or WeChat | 预约请拨打电话或微信</strong></p>
     </section>
     
     <footer>
